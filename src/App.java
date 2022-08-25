@@ -9,6 +9,7 @@ public class App {
         employee.setName("João Paulo");
         employee.setSalary(10000);
         employee.calculateSalary();
+        employee.setFunction(new Function(1,"Analista"));
         System.out.println(employee);
 
         Provider provider = new Provider(3, "Pedro");
